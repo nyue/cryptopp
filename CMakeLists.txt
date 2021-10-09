@@ -234,7 +234,7 @@ add_library(cryptopp STATIC
   zlib.cpp
   )
 
-ifdef(NOT WIN32)
+if(NOT WIN32)
 
 add_executable(cryptest
   # adhoc.cpp
