@@ -267,3 +267,18 @@ target_link_libraries(cryptest
   )
 
 endif()
+
+install(FILES
+  cryptlib.h
+  config.h
+  stdcpp.h
+  trap.h
+  DESTINATION
+  include
+  )
+
+install(TARGETS
+  cryptopp
+  DESTINATION
+  lib
+  )
