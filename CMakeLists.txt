@@ -235,7 +235,7 @@ add_library(cryptopp STATIC
   )
 
 add_executable(cryptest
-  adhoc.cpp
+  # adhoc.cpp
   test.cpp
   bench1.cpp
   bench2.cpp
